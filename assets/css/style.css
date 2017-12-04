@@ -1,0 +1,30 @@
+.navbar {
+  border-radius: 0;
+}
+
+.jumbotron {
+  padding: 5em;
+}
+
+h1, .panel-heading {
+  font-weight: bold;
+}
+
+.btn, .badge {
+  margin-bottom: 1em;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+}
+
+.dropdown-menu {
+
+}
+
+
+.static {
+  position: static;
+  display: block;
+}

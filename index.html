@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Theme Example</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <!-- CSS Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- CSS del Documento -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Brand</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+          <li><a href="#">Link</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">One more separated link</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+<!-- Title -->
+<section>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Theme Example</h1>
+      <p>This is a template showcasing the optional theme stylesheet included in Bootstrap. Use it as a starting point to create something more unique by building on or modify it.</p>
+  </div>
+</section>
+<!-- Buttons -->
+<section>
+    <div class="container">
+      <div class="page-header">
+        <h1>Buttons</h1>
+      </div>
+    <div class="row">
+      <button type="button" class="btn btn-lg btn-default" aria-label="Left Align">Default</button>
+      <button type="button" class="btn btn-lg btn-primary" aria-label="Left Align">Primary</button>
+      <button type="button" class="btn btn-lg btn-success" aria-label="Left Align">Success</button>
+      <button type="button" class="btn btn-lg btn-info" aria-label="Left Align">Info</button>
+      <button type="button" class="btn btn-lg btn-warning" aria-label="Left Align">Warning</button>
+      <button type="button" class="btn btn-lg btn-danger" aria-label="Left Align">Danger</button>
+      <button type="button" class="btn btn-lg btn-link" aria-label="Left Align">Link</button>
+    </div>
+    <div class="row">
+      <button type="button" class="btn btn-md btn-default" aria-label="Left Align">Default</button>
+      <button type="button" class="btn btn-md btn-primary" aria-label="Left Align">Primary</button>
+      <button type="button" class="btn btn-md btn-success" aria-label="Left Align">Success</button>
+      <button type="button" class="btn btn-md btn-info" aria-label="Left Align">Info</button>
+      <button type="button" class="btn btn-md btn-warning" aria-label="Left Align">Warning</button>
+      <button type="button" class="btn btn-md btn-danger" aria-label="Left Align">Danger</button>
+      <button type="button" class="btn btn-md btn-link" aria-label="Left Align">Link</button>
+    </div>
+    <div class="row">
+      <button type="button" class="btn btn-sm btn-default" aria-label="Left Align">Default</button>
+      <button type="button" class="btn btn-sm btn-primary" aria-label="Left Align">Primary</button>
+      <button type="button" class="btn btn-sm btn-success" aria-label="Left Align">Success</button>
+      <button type="button" class="btn btn-sm btn-info" aria-label="Left Align">Info</button>
+      <button type="button" class="btn btn-sm btn-warning" aria-label="Left Align">Warning</button>
+      <button type="button" class="btn btn-sm btn-danger" aria-label="Left Align">Danger</button>
+      <button type="button" class="btn btn-sm btn-link" aria-label="Left Align">Link</button>
+    </div>
+    <div class="row">
+      <button type="button" class="btn btn-xs btn-default" aria-label="Left Align">Default</button>
+      <button type="button" class="btn btn-xs btn-primary" aria-label="Left Align">Primary</button>
+      <button type="button" class="btn btn-xs btn-success" aria-label="Left Align">Success</button>
+      <button type="button" class="btn btn-xs btn-info" aria-label="Left Align">Info</button>
+      <button type="button" class="btn btn-xs btn-warning" aria-label="Left Align">Warning</button>
+      <button type="button" class="btn btn-xs btn-danger" aria-label="Left Align">Danger</button>
+      <button type="button" class="btn btn-xs btn-link" aria-label="Left Align">Link</button>
+    </div>
+   </div>
+   </div>
+  </section>
+  <!-- Tables -->
+  <section>
+    <div class="container">
+    <div class="page-header">
+      <h1>Tables</h1>
+    </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">First Name</th>
+                <th scope="col">Last Name</th>
+                <th scope="col">Username</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-lg-6">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">First Name</th>
+                <th scope="col">Last Name</th>
+                <th scope="col">Username</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">First Name</th>
+                <th scope="col">Last Name</th>
+                <th scope="col">Username</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-lg-6">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">First Name</th>
+                <th scope="col">Last Name</th>
+                <th scope="col">Username</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Thumbnails -->
+  <section>
+    <div class="container">
+      <div class="page-header">
+        <h1>Thumbnails</h1>
+      </div>
+      <div class="row">
+        <div class="col-xs-6 col-md-3">
+          <a href="#" class="thumbnail">
+            <img src="assets/img/square.svg" alt="Image">
+          </a>
+        </div>
+    </div>
+    </div>
+  </section>
+  <!-- Labels -->
+  <section>
+    <div class="container">
+      <div class="page-header">
+        <h1>Labels</h1>
+      </div>
+      <h1><span class="label label-default">Default</span>
+      <span class="label label-primary">Primary</span>
+      <span class="label label-success">Success</span>
+      <span class="label label-info">Info</span>
+      <span class="label label-warning">Warning</span>
+      <span class="label label-danger">Danger</span></h1>
+      <h2><span class="label label-default">Default</span>
+      <span class="label label-primary">Primary</span>
+      <span class="label label-success">Success</span>
+      <span class="label label-info">Info</span>
+      <span class="label label-warning">Warning</span>
+      <span class="label label-danger">Danger</span></h2>
+      <h3><span class="label label-default">Default</span>
+      <span class="label label-primary">Primary</span>
+      <span class="label label-success">Success</span>
+      <span class="label label-info">Info</span>
+      <span class="label label-warning">Warning</span>
+      <span class="label label-danger">Danger</span></h3>
+      <h4><span class="label label-default">Default</span>
+      <span class="label label-primary">Primary</span>
+      <span class="label label-success">Success</span>
+      <span class="label label-info">Info</span>
+      <span class="label label-warning">Warning</span>
+      <span class="label label-danger">Danger</span></h4>
+      <h5><span class="label label-default">Default</span>
+      <span class="label label-primary">Primary</span>
+      <span class="label label-success">Success</span>
+      <span class="label label-info">Info</span>
+      <span class="label label-warning">Warning</span>
+      <span class="label label-danger">Danger</span></h5>
+      <h6><span class="label label-default">Default</span>
+      <span class="label label-primary">Primary</span>
+      <span class="label label-success">Success</span>
+      <span class="label label-info">Info</span>
+      <span class="label label-warning">Warning</span>
+      <span class="label label-danger">Danger</span></h6>
+      <span class="label label-default">Default</span>
+      <span class="label label-primary">Primary</span>
+      <span class="label label-success">Success</span>
+      <span class="label label-info">Info</span>
+      <span class="label label-warning">Warning</span>
+      <span class="label label-danger">Danger</span>
+    </div>
+  </section>
+  <!-- Badger -->
+  <section>
+    <div class="container">
+      <div class="page-header">
+        <h1>Badgers</h1>
+      </div>
+      <a class="badge-title" href="#">Inbox <span class="badge">42</span></a>
+        <ul class="nav nav-pills" role="tablist">
+        <li role="presentation" class="active"><a href="#">Home <span class="badge">42</span></a></li>
+        <li role="presentation"><a href="#">Profile</a></li>
+        <li role="presentation"><a href="#">Messages <span class="badge">3</span></a></li>
+      </ul>
+    </div>
+  </section>
+  <!-- Dropdown Menus -->
+  <section>
+    <div class="container">
+      <div class="page-header">
+        <h1>Dropdown menus</h1>
+      </div>
+      <div class="dropdown">
+         <ul class="dropdown-menu static" aria-labelledby="dropdownMenu1">
+          <li><a class="active" href="#">Action</a></li>
+          <li><a href="#">Another action</a></li>
+          <li><a href="#">Something else here</a></li>
+          <li role="separator" class="divider"></li>
+          <li><a href="#">Separated link</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- Navs -->
+  <section>
+    <div class="container">
+      <div class="page-header">
+        <h1>Navs</h1>
+      </div>
+    <ul class="nav nav-tabs">
+      <li role="presentation" class="active"><a href="#">Home</a></li>
+      <li role="presentation"><a href="#">Profile</a></li>
+      <li role="presentation"><a href="#">Messages</a></li>
+    </ul>
+    <ul class="nav nav-pills">
+      <li role="presentation" class="active"><a href="#">Home</a></li>
+      <li role="presentation"><a href="#">Profile</a></li>
+      <li role="presentation"><a href="#">Messages</a></li>
+    </ul>
+    </div>
+  </section>
+  <!-- Navbars -->
+  <section>
+    <div class="container">
+      <div class="page-header">
+        <h1>Navbars</h1>
+      </div>
+      <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Brand</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+          <li><a href="#">Link</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">One more separated link</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Brand</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+          <li><a href="#">Link</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">One more separated link</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+    </div>
+  </section>
+  <!-- Alerts -->
+  <section>
+    <div class="container">
+      <div class="page-header">
+        <h1>Alerts</h1>
+      </div>
+      <div class="alert alert-success" role="alert"><strong>Well done!</strong> You successfully read this important alert message.</div>
+      <div class="alert alert-info" role="alert"><strong>Heads up!</strong> This alert needs your attention, but it's not super important.</div>
+      <div class="alert alert-warning" role="alert"><strong>Warning!</strong> Better check yourself, you're not looking too good.</div>
+      <div class="alert alert-danger" role="alert"><strong>Oh snap!</strong> Change a few things up and try submitting again.</div>
+      
+    </div>
+  </section>
+
+
+  <!-- Panels -->
+  <section>
+    <div class="container">
+      <div class="page-header">
+        <h1>Panels</h1>
+      </div>
+     <div class="row">
+        <div class="col-md-4">
+        <div class="panel panel-default">
+          <div class="panel-heading">Panel Title</div>
+          <div class="panel-body">
+            Panel content
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="panel panel-success">
+          <div class="panel-heading">Panel Title</div>
+          <div class="panel-body">
+            Panel content
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="panel panel-warning">
+          <div class="panel-heading">Panel Title</div>
+          <div class="panel-body">
+            Panel content
+          </div>
+        </div>
+      </div>
+     </div>
+    <div class="row">
+        <div class="col-md-4">
+        <div class="panel panel-primary">
+          <div class="panel-heading">Panel Title</div>
+          <div class="panel-body">
+            Panel content
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="panel panel-info">
+          <div class="panel-heading">Panel Title</div>
+          <div class="panel-body">
+            Panel content
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="panel panel-danger">
+          <div class="panel-heading">Panel Title</div>
+          <div class="panel-body">
+            Panel content
+          </div>
+        </div>
+      </div>
+     </div>
+    
+
+
+    </div>
+  </section>
+
+
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Script Bootstrap -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
